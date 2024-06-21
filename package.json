@@ -1,0 +1,40 @@
+{
+  "name": "bookmatic",
+  "version": "1.0.0",
+  "description": "Bookmatic is a service that orders Amazon books at a fixed interval from a Google Docs list. The service marks the books as ordered in the list after the purchase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaitanya-Shahare/bookmatic.git"
+  },
+  "keywords": [
+    "books",
+    "amazon",
+    "orders",
+    "ordering",
+    "automation",
+    "reading"
+  ],
+  "author": "Chaitanya Shahare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chaitanya-Shahare/bookmatic/issues"
+  },
+  "homepage": "https://github.com/Chaitanya-Shahare/bookmatic#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.7",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.13.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
