@@ -15,19 +15,26 @@ Bookmatic is a service that orders Amazon books at a fixed interval from a Googl
 ## Project Setup
 
 1. Clone the repository
+
     ```bash
-    git clone https://github.com/Chaitanya-Shahare/Bookmatic.git
+    git clone https://github.com/Chaitanya-Shahare/bookmatic.git
     ```
+
 2. Navigate to the project directory
+
     ```bash
     cd Bookmatic
     ```
+
 3. Install dependencies
+
     ```bash
     npm install
     ```
+
 4. Configure environment variables (e.g., Google Sheets API credentials, Amazon credentials)
 5. Start the project
+
     ```bash
     npm start
     ```
@@ -216,9 +223,11 @@ Bookmatic is a service that orders Amazon books at a fixed interval from a Googl
 
 1. Make sure your environment variables are configured correctly.
 2. To start the scheduled task that checks and orders books:
+
     ```bash
     npm run start
     ```
+
 3. Monitor the logs for activity.
 
 ## Contributing
